@@ -1,0 +1,178 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.header-container {
+    background-image: url('../assets/images/compo.jpg');
+    height: 475px;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.header-informations {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.update-message {
+    color: grey;
+    font-size: smaller;
+}
+
+.current-location {
+    border-radius: 20px;
+    border: none;
+    height: 35px;
+    font-size: small;
+    color: white;
+    background: #70a1ff;
+}
+
+.search-location {
+    border-radius: 50%;
+    border: none;
+    height: 32px;
+    width: 32px;;
+}
+
+.city-informations {
+    margin-left: 35px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.area-name {
+    font-weight: 400;
+}
+
+.details-container {
+    height: 200px;
+}
+
+.weather-details {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 35px;
+}
+
+.current-weather {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.weather-temperature {
+    font-size: 60px;
+}
+
+.temperature-details {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+
+.current-date {
+font-weight: bold;
+}
+
+.more-informations {
+    color: lightblue;
+    font-weight: bold;
+    font-size: small;
+}
+.informations-container  {
+    margin-left: 35px;
+}
+
+.home-button {
+    background: transparent;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    color: lightgrey;
+    height: 27px;
+    width: 66px;
+}
+
+.weather-image {
+    margin-top: 25px;
+    z-index: 0;
+    position: relative;
+    left: 15px;
+}
+
+.settings-button {
+    background: white;
+    border-radius: 50px;
+    border: 1px solid lightgray;
+}
+
+.action-container {
+    margin-left: 35px;
+}
+
+.refresh-button {
+    background: #1e90ff;
+    border: 1px solid white;
+    border-radius: 50px;
+    height: 32px;
+    width: 32px;
+}
+
+.button-action-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    margin-top: -25px;
+    margin-right: 35px;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.search-location-desktop {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .mobile {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .desktop {
+        display: none;
+    }
+    weather-panel {
+    background-image: url("compo.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 25px 25px 40px 0px rgba(0, 0, 0, 0.33);
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+  }
+  .weather-panel small {
+    color: inherit;
+    font-size: 50%;
+  }
+  .weather-panel ul.forecast > li {
+    border-top: 1px solid #fff;
+  }
+  .weather-panel .temperature > span {
+    font-size: 2em;
+  }
+}
+
+  
+
+
+
